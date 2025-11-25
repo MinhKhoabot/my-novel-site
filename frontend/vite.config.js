@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// ⚠ TẮT rolldown: không dùng "builder: 'rolldown'"
 export default defineConfig({
   plugins: [react()],
 })
